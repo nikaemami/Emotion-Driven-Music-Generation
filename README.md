@@ -12,7 +12,7 @@ The emotion classification network identifies emotions from human facial images.
 We use the pretrained EfficientNet model for our classification task. In our project we used EfficientNet-B0 model which is the baseline model in the EfficientNet family which utilizes depth-wise separable convolutions, squeeze-and-excitation blocks, and point-wise convolutions to efficiently capture features at different scales. The architecture of the EfficientNet-B0 can be depicted as below:
 
 
-<img src="efficient net b0.jpeg" alt="My Image" width="800" height="320">
+<img src="images/efficient net b0.jpeg" alt="My Image" width="800" height="320">
 
 
 
@@ -21,7 +21,7 @@ The generator inputs a random noise vector z, conditional vector y, and the prev
 The architecture of the Generator model can be depicted as below:
 
 
-<img src="MusicGenModel.png" alt="My Image" width="400" height="500">
+<img src="images/MusicGenModel.png" alt="My Image" width="400" height="500">
 
 <h2> &nbsp;Results</h2>
 
@@ -29,13 +29,13 @@ In our final pipeline, we first import the emotion classifier that we previously
 
 
 The evolution of loss and accuracy throughout the 100 epochs for both train and validation sets:
-<img src="plots.png" alt="My Image" width="600" height="300">
+<img src="images/plots.png" alt="My Image" width="600" height="300">
 
 The results for the emotion classifier can be depicted as:
-<img src="faces.png" alt="My Image" width="600" height="200">
+<img src="images/faces.png" alt="My Image" width="600" height="200">
 
 The generated melodies from the trained generator. The first bar is sampled randomly based on the given emotion label, and the subsequent bars are generated:
 
-<img src="gen_melodies.png" alt="My Image" width="400" height="800">
+<img src="images/gen_melodies.png" alt="My Image" width="400" height="800">
 
 
