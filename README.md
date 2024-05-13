@@ -1,5 +1,4 @@
 # DL-Final-Project
-Deep Learning Course Final Project
 
 In this project, we propose a deep learning pipeline for generating music based on emotional states of indivisuals. The pipeline consists of an Emotion Classification network based on EfficientNet, and a Music Generation model based on MIDINet. 
 
