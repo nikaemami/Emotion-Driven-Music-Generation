@@ -25,7 +25,7 @@ The architecture of the Generator model can be depicted as below:
 
 <h2> &nbsp;Results</h2>
 
-In our final pipeline, we first import the emotion classifier that we previously trained and pass an image of a facial expression as the input to get the corresponding emotion as the output. Next, the output of the Emotion Classifier is mapped directly to the arousal-valence label. A random 4-bar starting melody is sampled from the label and used as the precursor melody to the GAN. The GAN generates a 4-bar melody, which becomes the next precursor melody to the GAN; this is repeated three times to obtain a 16-bar melody. We only take the top four pitches at each time step to match the melodies from the dataset. The melody is then exported as a MIDI file. The results of the generated audio can be found in the Results folder.
+In our final pipeline, we first import the emotion classifier that we previously trained and pass an image of a facial expression as the input to get the corresponding emotion as the output. Next, the output of the Emotion Classifier is mapped directly to the arousal-valence label. A random 4-bar starting melody is sampled from the label and used as the precursor melody to the GAN. The GAN generates a 4-bar melody, which becomes the next precursor melody to the GAN; this is repeated three times to obtain a 16-bar melody. We only take the top four pitches at each time step to match the melodies from the dataset. The melody is then exported as a MIDI file. The results of the generated audio can be found in the Generated Audio Results folder.
 
 
 The evolution of loss and accuracy throughout the 100 epochs for both train and validation sets:
