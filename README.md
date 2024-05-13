@@ -39,3 +39,4 @@ The generated melodies from the trained generator. The first bar is sampled rand
 <img src="images/gen_melodies.png" alt="My Image" width="400" height="800">
 
 
+We also trained our generator by directly using the pretrained EMOPIA transformer. This version performs better in creating melodious songs that contain a certain genre of emotion. The audio reults from this generator can be found in the Emopia Results folder.
